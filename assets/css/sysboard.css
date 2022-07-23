@@ -1,0 +1,62 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--app-background);
+  color: var(--app-font-color);
+  font-family: var(--app-font-family);
+  font-size: 16px;
+  font-weight: normal;
+}
+
+input {
+  background-color: var(--app-input-background);
+  border: 0;
+  border-radius: 03px;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+}
+
+main {
+  margin: auto;
+  width: 50%;
+}
+
+main > header {
+  padding: 50px 0;
+}
+
+header > p {
+  color: var(--app-subtitle);
+}
+
+main section {
+  background-color: var(--app-section-background);
+  border-radius: 03px;
+  box-shadow: 03px 03px 03px rgb(230 230 230);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+main section > header {
+  margin-bottom: 10px;
+}
+
+.results {
+  margin-top: 10px;
+}
+
+.results .user {
+  background-color: rgb(240 242 245);
+  border-radius: 03px;
+  margin: 10px 0;
+  padding: 10px;
+}

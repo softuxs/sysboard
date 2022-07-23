@@ -1,0 +1,8 @@
+:root {
+  --app-background: rgb(240 242 245);
+  --app-font-family: "Lato", sans-serif;
+  --app-font-color: rgb(20 20 20);
+  --app-subtitle: rgb(60% 60% 60%);
+  --app-section-background: white;
+  --app-input-background: rgb(240 242 245);
+}
