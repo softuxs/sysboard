@@ -1,0 +1,80 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(240, 242, 245);
+  color: rgb(20, 20, 20);
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+main {
+  margin: 0 auto;
+  width: 50%;
+}
+
+main > header {
+  padding: 50px 0;
+}
+
+main > header > p {
+  color: rgb(50%, 50%, 50%);
+}
+
+main section {
+  background-color: white;
+  border: 0;
+  border-radius: 03px;
+  box-shadow: 02px 02px 02px rgb(230, 230, 230);
+  margin-bottom: 1rem;
+  padding: 20px;
+}
+
+main section > header {
+  margin-bottom: 20px;
+}
+
+main section > header > p {
+  color: rgb(50%, 50%, 50%);
+}
+
+a {
+  color: rgb(39, 39, 243);
+  text-decoration: none;
+}
+
+button, select, option {
+  cursor: pointer;
+}
+
+button, input, select, option {
+  background-color: rgb(240, 242, 245);
+  border: 0;
+  border-radius: 03px;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  outline: 0;
+  padding: 10px;
+  width: 100%;
+}
+
+/** Mobile **/
+@media screen and (max-width: 1200px) {
+  main {
+    width: 100%;
+  }
+
+  main section {
+    margin: 0 auto 10px auto;
+    width: 90%;
+  }
+
+  main > header {
+    padding: 50px 20px;
+  }
+}
